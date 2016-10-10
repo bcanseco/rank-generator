@@ -1,0 +1,309 @@
+{
+    "Prefixes": [
+        {
+            "Phrase": "God",
+            "Categories": ["fantasy"],
+            "Whitelist": ["Emperor", "King", "Queen"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Legendary",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 9,
+            "MinimumTier": 70
+        },
+        {
+            "Phrase": "Supreme",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 9,
+            "MinimumTier": 70
+        },
+        {
+            "Phrase": "Divine",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 9,
+            "MinimumTier": 70
+        },
+        {
+            "Phrase": "Daedric",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 8,
+            "MinimumTier": 55
+        },
+        {
+            "Phrase": "Undying",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 7,
+            "MinimumTier": 55
+        },
+        {
+            "Phrase": "Revenant",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 7,
+            "MaximumTier": 65
+        },
+        {
+            "Phrase": "Arch",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 6,
+            "MinimumTier": 55
+        },
+        {
+            "Phrase": "Exalted",
+            "Categories": ["fantasy"],
+            "Tier": 5,
+            "MinimumTier": 80
+        },
+        {
+            "Phrase": "Episcopal",
+            "Categories": ["fantasy"],
+            "Tier": 4,
+            "MinimumTier": 80
+        },
+        {
+            "Phrase": "Master",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 3,
+            "MaximumTier": 25
+        },
+        {
+            "Phrase": "Elite",
+            "Categories": ["fantasy"],
+            "RestrictCategories": true,
+            "Tier": 2,
+            "MaximumTier": 25
+        },
+        {
+            "Phrase": "Honorable",
+            "Categories": ["fantasy"],
+            "Tier": 1,
+            "MinimumTier": 25
+        },
+        {
+            "Phrase": "His Majesty's",
+            "Categoires": ["fantasy"],
+            "Whitelist": ["Knight", "Champion", "Guardian"],
+            "Tier": 1
+        },
+        {
+            "Phrase": "Her Majesty's",
+            "Categoires": ["fantasy"],
+            "Whitelist": ["Knight", "Champion", "Guardian"],
+            "Tier": 1
+        },
+        {
+            "Phrase": "Novice",
+            "Categories": ["fantasy"],
+            "Blacklist": ["Plebeian"],
+            "Tier": -2,
+            "MaximumTier": 30
+        }
+    ],
+    "Titles": [
+        {
+            "Phrase": "Emperor",
+            "Categories": ["fantasy"],
+            "Tier": 100
+        },
+        {
+            "Phrase": "Führer",
+            "Categories": ["fantasy"],
+            "Tier": 90
+        },
+        {
+            "Phrase": "King",
+            "Categories": ["fantasy"],
+            "Tier": 85
+        },
+        {
+            "Phrase": "Queen",
+            "Categories": ["fantasy"],
+            "Tier": 80
+        },
+        {
+            "Phrase": "Prince",
+            "Categories": ["fantasy"],
+            "Tier": 70
+        },
+        {
+            "Phrase": "Princess",
+            "Categories": ["fantasy"],
+            "Tier": 70
+        },
+        {
+            "Phrase": "Margrave",
+            "Categories": ["fantasy"],
+            "Tier": 65
+        },
+        {
+            "Phrase": "Viceroy",
+            "Categories": ["fantasy"],
+            "Tier": 60
+        },
+        {
+            "Phrase": "Duke",
+            "Categories": ["fantasy"],
+            "Tier": 55
+        },
+        {
+            "Phrase": "Duchess",
+            "Categories": ["fantasy"],
+            "Tier": 55
+        },
+        {
+            "Phrase": "Knight",
+            "Categories": ["fantasy"],
+            "Tier": 55
+        },
+        {
+            "Phrase": "Legate",
+            "Categories": ["nobility"],
+            "Tier": 50
+        },
+        {
+            "Phrase": "Councilman",
+            "Categories": ["nobility"],
+            "Tier": 50
+        },
+        {
+            "Phrase": "Tribune",
+            "Categories": ["nobility"],
+            "Tier": 50
+        },
+        {
+            "Phrase": "Consul",
+            "Categories": ["nobility"],
+            "Tier": 45
+        },
+        {
+            "Phrase": "Magistrate",
+            "Categories": ["nobility"],
+            "Tier": 45
+        },
+        {
+            "Phrase": "Nobleman",
+            "Categories": ["nobility"],
+            "Tier": 45
+        },
+        {
+            "Phrase": "Patriarch",
+            "Categories": [ "nobility"],
+            "Tier": 45
+        },
+        {
+            "Phrase": "Patrician",
+            "Categories": ["nobility"],
+            "Tier": 45
+        },
+        {
+            "Phrase": "Baron",
+            "Categories": ["nobility"],
+            "Tier": 40
+        },
+        {
+            "Phrase": "Champion",
+            "Categories": ["fantasy"],
+            "Tier": 30
+        },
+        {
+            "Phrase": "Guardian",
+            "Categories": ["fantasy"],
+            "Tier": 25
+        },
+        {
+            "Phrase": "Alchemist",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Journeyman",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Magician",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Warlock",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Evoker",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Conjurer",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Wizard",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Witch",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Mage",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Swordsman",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Orc",
+            "Categories": ["fantasy"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Plebeian",
+            "Categories": ["nobility"],
+            "Tier": 10
+        }
+    ],
+    "Postfixes": [
+        {
+            "Phrase": "of the Burning Mantle",
+            "Categories": ["fantasy"],
+            "MinimumTier": 55
+        },
+        {
+            "Phrase": "of Valhalla",
+            "Categories": ["fantasy"],
+            "MinimumTier": 55
+        },
+        {
+            "Phrase": "of Camelot",
+            "Categories": ["fantasy"],
+            "MinimumTier": 55
+        },
+        {
+            "Phrase": "of Troy",
+            "Categories": ["fantasy", "nobility"],
+            "MinimumTier": 55
+        },
+        {
+            "Phrase": "of Athens",
+            "Categories": ["fantasy", "nobility"],
+            "MinimumTier": 55
+        }
+    ]
+}

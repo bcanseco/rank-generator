@@ -1,0 +1,111 @@
+{
+    "Prefixes": [
+        {
+            "Phrase": "Distinguished",
+            "Categories": ["misc"],
+            "Tier": 3
+        },
+        {
+            "Phrase": "Senior",
+            "Categories": ["misc"],
+            "Blacklist": ["Director", "Spy"],
+            "Tier": 2,
+            "MaximumTier": 50,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "Staff",
+            "Categories": ["misc"],
+            "Blacklist": ["Spy"],
+            "Tier": 2,
+            "MaximumTier": 30,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "First",
+            "Categories": ["misc"],
+            "Tier": 1
+        },
+        {
+            "Phrase": "Assistant",
+            "Categories": ["misc"],
+            "Tier": -1
+        },
+        {
+            "Phrase": "Second",
+            "Categories": ["misc"],
+            "Tier": -1
+        }
+    ],
+    "Titles": [
+        {
+            "Phrase": "Superintendent",
+            "Categories": ["misc"],
+            "Tier": 60
+        },
+        {
+            "Phrase": "Director",
+            "Categories": ["misc"],
+            "Tier": 50
+        },
+        {
+            "Phrase": "Sheriff",
+            "Categories": ["misc"],
+            "Tier": 40
+        },
+        {
+            "Phrase": "Administrator",
+            "Categories": ["misc"],
+            "Tier": 30
+        },
+        {
+            "Phrase": "Manager",
+            "Categories": ["misc"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Moderator",
+            "Categories": ["misc"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Scientist",
+            "Categories": ["misc"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Engineer",
+            "Categories": ["misc"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Inspector",
+            "Categories": ["misc"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Spy",
+            "Categories": ["misc"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Agent",
+            "Categories": ["misc"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Specialist",
+            "Categories": ["misc"],
+            "Tier": 10
+        }
+    ],
+    "Postfixes": [
+        {
+            "Phrase": "Intern",
+            "Categories": ["misc"],
+            "Blacklist": ["Moderator", "Specialist"],
+            "MaximumTier": 10,
+            "RestrictCategories": true
+        }
+    ]
+}

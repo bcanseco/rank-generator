@@ -1,0 +1,239 @@
+{
+    "Prefixes": [
+        {
+            "Phrase": "Prime",
+            "Categories": ["politics"],
+            "Whitelist": ["Minister"],
+            "Tier": 3
+        },
+        {
+            "Phrase": "Chief",
+            "Categories": ["politics"],
+            "Whitelist": ["Justice", "Ambassador"],
+            "Tier": 2
+        },
+        {
+            "Phrase": "National",
+            "Categories": ["politics"],
+            "Whitelist": ["Ambassador", "Representative", "Delegate"],
+            "Tier": 1
+        },
+        {
+            "Phrase": "State",
+            "Categories": ["politics"],
+            "Whitelist": ["Minister", "Ambassador", "Senator", "Representative"],
+            "Tier": -1
+        },
+        {
+            "Phrase": "Deputy",
+            "Categories": ["politics"],
+            "Whitelist": ["Justice", "Governor"],
+            "Tier": -1
+        },
+        {
+            "Phrase": "Trade",
+            "Categories": ["politics"],
+            "Whitelist": ["Ambassador", "Representative"],
+            "Tier": -2
+        },
+        {
+            "Phrase": "Joint",
+            "Categories": ["politics"],
+            "Whitelist": ["Chairman", "Secretary", "Speaker", "Representative", "Governor"],
+            "Tier": -2
+        },
+        {
+            "Phrase": "Vice",
+            "Categories": ["politics"],
+            "Whitelist": ["President", "Chairman"],
+            "Tier": -2
+        },
+        {
+            "Phrase": "Associate",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary", "Justice", "Ambassador", "Representative"],
+            "Tier": -3
+        },
+        {
+            "Phrase": "Acting",
+            "Categories": ["politics"],
+            "Tier": -4
+        }
+    ],
+    "Titles": [
+        {
+            "Phrase": "President",
+            "Categories": ["politics"],
+            "Tier": 80
+        },
+        {
+            "Phrase": "Dictator",
+            "Categories": ["politics"],
+            "Tier": 80
+        },
+        {
+            "Phrase": "Chairman",
+            "Categories": ["politics"],
+            "Tier": 80
+        },
+        {
+            "Phrase": "Minister",
+            "Categories": ["politics"],
+            "Tier": 70
+        },
+        {
+            "Phrase": "Secretary",
+            "Categories": ["politics"],
+            "Tier": 70
+        },
+        {
+            "Phrase": "Justice",
+            "Categories": ["politics"],
+            "Tier": 60
+        },
+        {
+            "Phrase": "Ambassador",
+            "Categories": ["politics"],
+            "Tier": 50
+        },
+        {
+            "Phrase": "Speaker",
+            "Categories": ["politics"],
+            "Tier": 45
+        },
+        {
+            "Phrase": "Congressman",
+            "Categories": ["politics"],
+            "Tier": 40
+        },
+        {
+            "Phrase": "Senator",
+            "Categories": ["politics"],
+            "Tier": 40
+        },
+        {
+            "Phrase": "Representative",
+            "Categories": ["politics"],
+            "Tier": 40
+        },
+        {
+            "Phrase": "Governor",
+            "Categories": ["politics"],
+            "Tier": 30
+        },
+        {
+            "Phrase": "Mayor",
+            "Categories": ["politics"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Delegate",
+            "Categories": ["politics"],
+            "Tier": 10
+        }
+    ],
+    "Postfixes": [
+        {
+            "Phrase": "of the United States",
+            "Categories": ["politics"],
+            "Whitelist": ["President", "Ambassador", "Representative"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of the Supreme Court",
+            "Categories": ["politics"],
+            "Whitelist": ["Justice"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of State",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of the Treasury",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Defense",
+            "Categories": ["politics"],
+            "Whitelist": ["Minister", "Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of the Interior",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Agriculture",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Commerce",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Labor",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Human Services",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Urban Development",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Transportation",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Energy",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Education",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Veterans Affairs",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of Homeland Security",
+            "Categories": ["politics"],
+            "Whitelist": ["Secretary"],
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of the House",
+            "Categories": ["politics"],
+            "Whitelist": ["Speaker"],
+            "RestrictCategories": true
+        }
+    ]
+}

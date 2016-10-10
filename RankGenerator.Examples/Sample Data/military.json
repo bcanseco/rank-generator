@@ -1,0 +1,179 @@
+{
+    "Prefixes": [
+        {
+            "Phrase": "Fleet",
+            "Categories": ["navy"],
+            "Tier": 2,
+            "MinimumTier": 45,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "Gunnery",
+            "Categories": ["army"],
+            "Whitelist": ["Sergeant"],
+            "Tier": 1
+        },
+        {
+            "Phrase": "Major",
+            "Categories": ["army", "airforce"],
+            "Blacklist": ["Major"],
+            "Tier": -1,
+            "MinimumTier": 60,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "Lieutenant",
+            "Categories": ["army, airforce, navy"],
+            "Blacklist": ["Lieutenant", "Admiral"],
+            "Tier": -2,
+            "MinimumTier": 40,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "Brigadier",
+            "Categories": ["army"],
+            "Whitelist": ["General"],
+            "Tier": -2
+        },
+        {
+            "Phrase": "Rear",
+            "Categories": ["navy"],
+            "Whitelist": ["Admiral"],
+            "Tier": -3,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "Lance",
+            "Categories": ["army"],
+            "Whitelist": ["Corporal"],
+            "Tier": -3
+        },
+        {
+            "Phrase": "Warrant",
+            "Categories": ["army", "navy"],
+            "Whitelist": ["Officer"],
+            "Tier": -4
+        },
+        {
+            "Phrase": "Petty",
+            "Categories": ["navy"],
+            "Whitelist": ["Officer"],
+            "Tier": -4
+        }
+    ],
+    "Titles": [
+        {
+            "Phrase": "General",
+            "Categories": ["army", "airforce"],
+            "Tier": 80
+        },
+        {
+            "Phrase": "Admiral",
+            "Categories": ["navy"],
+            "Tier": 80
+        },
+        {
+            "Phrase": "Colonel",
+            "Categories": ["army", "airforce"],
+            "Tier": 70
+        },
+        {
+            "Phrase": "Major",
+            "Categories": ["army", "airforce"],
+            "Tier": 60
+        },
+        {
+            "Phrase": "Commodore",
+            "Categories": ["navy"],
+            "Tier": 60
+        },
+        {
+            "Phrase": "Captain",
+            "Categories": ["army, airforce, navy"],
+            "Tier": 50
+        },
+        {
+            "Phrase": "Commander",
+            "Categories": ["navy"],
+            "Tier": 45
+        },
+        {
+            "Phrase": "Lieutenant",
+            "Categories": ["army", "airforce", "navy"],
+            "Tier": 40
+        },
+        {
+            "Phrase": "Ensign",
+            "Categories": ["navy"],
+            "Tier": 35
+        },
+        {
+            "Phrase": "Officer",
+            "Categories": ["army", "navy"],
+            "Tier": 30
+        },
+        {
+            "Phrase": "Sergeant",
+            "Categories": ["army", "airforce"],
+            "Tier": 20
+        },
+        {
+            "Phrase": "Corporal",
+            "Categories": ["army"],
+            "Tier": 15
+        },
+        {
+            "Phrase": "Private",
+            "Categories": ["army"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Airman",
+            "Categories": ["airforce"],
+            "Tier": 10
+        },
+        {
+            "Phrase": "Seaman",
+            "Categories": ["navy"],
+            "Tier": 10
+        }
+    ],
+    "Postfixes": [
+        {
+            "Phrase": "of the Army",
+            "Categories": ["army"],
+            "MinimumTier": 45,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of the Airforce",
+            "Categories": ["airforce"],
+            "MinimumTier": 45,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of the Navy",
+            "Categories": ["navy"],
+            "MinimumTier": 45,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of the Marine Corps",
+            "Categories": ["army"],
+            "MinimumTier": 45,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "of the Coast Guard",
+            "Categories": ["navy"],
+            "MinimumTier": 45,
+            "RestrictCategories": true
+        },
+        {
+            "Phrase": "First Class",
+            "Categories": ["army, airforce, navy"],
+            "MaximumTier": 40,
+            "RestrictCategories": true
+        }
+    ]
+}
