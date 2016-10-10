@@ -41,7 +41,7 @@ Affixes have additional properties:
   "MaximumTier": 1338 // cieling for title tiers
 }
 ````
-Once you have a JSON file set up with this data, you can invoke methods from a `RankGenerator` object. Use the static `Initialize()` method, which accepts a path to the JSON file.
+Once you have [a JSON file](https://github.com/bcanseco/rank-generator/blob/master/RankGenerator.Examples/Sample%20Data) set up with this data, you can invoke methods from a `RankGenerator` object. Use the static `Initialize()` method, which accepts a path to the JSON file.
 ````c#
 var generator = RankGenerator.Initialize("government.json")
 Console.WriteLine(generator.NextRank()); // "Honorable King"
