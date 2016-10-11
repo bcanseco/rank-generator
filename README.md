@@ -54,7 +54,7 @@ Console.WriteLine(generator.RandomRank()); // "Honorable King of Human Resources
 ````
 [Rank](https://github.com/bcanseco/rank-generator/blob/master/RankGenerator/Classes/Rank.cs) objects are implicitly casted as strings, so they can be used anywhere in your application without losing valuable phrase metadata.
 
-## Getting Started
+## Getting started
 1. Download or `git clone` the repository.
 2. Launch [Rank Generator.sln](https://github.com/bcanseco/rank-generator/blob/master/Rank%20Generator.sln).
 3. Start the project to check out the examples.
